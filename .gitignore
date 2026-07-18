@@ -1,0 +1,26 @@
+# Logs
+logs/
+*.log
+
+# Profiles
+profiles/
+
+# Temp
+temp/
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# IDEs and editors
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS metadata
+.DS_Store
+Thumbs.db
