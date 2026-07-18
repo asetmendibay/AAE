@@ -36,16 +36,17 @@
 * **Current Sprint:** Спринт 1: Инициализация проекта и проектирование.
 * **Current Task:** Проектирование структуры `src/` и API базовых сервисов.
 * **Important Decisions:**
-  - Отказались от BAS в пользу Node.js + Playwright + TypeScript (Решение №1 в [99_DECISIONS.md](file:///Users/asetmendibay/AAE%20Aset%20Automation%20Engine/99_DECISIONS.md)).
+  - Отказались от BAS в пользу Node.js + Playwright + TypeScript (Решение №1 в [99_DECISIONS.md](file:///Users/asetmendibay/AAE%20Aset%20Automation%20Engine/docs/core/99_DECISIONS.md)).
 
 ## 6. Documents to Read First (Порядок чтения)
 Перед началом работы изучите следующие файлы в указанном порядке:
-1. [14_AI_CONTEXT.md](file:///Users/asetmendibay/AAE%20Aset%20Automation%20Engine/docs/14_AI_CONTEXT.md) (этот документ)
-2. [13_PROJECT_STATE.md](file:///Users/asetmendibay/AAE%20Aset%20Automation%20Engine/docs/13_PROJECT_STATE.md) (текущее состояние)
-3. [00_PROJECT_VISION.md](file:///Users/asetmendibay/AAE%20Aset%20Automation%20Engine/00_PROJECT_VISION.md) (цели проекта)
-4. [99_DECISIONS.md](file:///Users/asetmendibay/AAE%20Aset%20Automation%20Engine/99_DECISIONS.md) (принятые решения)
-5. [02_ARCHITECTURE.md](file:///Users/asetmendibay/AAE%20Aset%20Automation%20Engine/02_ARCHITECTURE.md) (архитектура)
+1. [14_AI_CONTEXT.md](file:///Users/asetmendibay/AAE%20Aset%20Automation%20Engine/docs/development/14_AI_CONTEXT.md) (этот документ)
+2. [13_PROJECT_STATE.md](file:///Users/asetmendibay/AAE%20Aset%20Automation%20Engine/docs/development/13_PROJECT_STATE.md) (текущее состояние)
+3. [00_PROJECT_VISION.md](file:///Users/asetmendibay/AAE%20Aset%20Automation%20Engine/docs/core/00_PROJECT_VISION.md) (цели проекта)
+4. [99_DECISIONS.md](file:///Users/asetmendibay/AAE%20Aset%20Automation%20Engine/docs/core/99_DECISIONS.md) (принятые решения)
+5. [02_ARCHITECTURE.md](file:///Users/asetmendibay/AAE%20Aset%20Automation%20Engine/docs/core/02_ARCHITECTURE.md) (архитектура)
 
 ## 7. Files Changed Recently
-* Все файлы документации в корне проекта.
-* [docs/12_PROJECT_OPERATING_SYSTEM.md](file:///Users/asetmendibay/AAE%20Aset%20Automation%20Engine/docs/12_PROJECT_OPERATING_SYSTEM.md)
+* Все файлы документации перенесены в каталоги `docs/core/` и `docs/development/`.
+* [docs/development/12_PROJECT_OPERATING_SYSTEM.md](file:///Users/asetmendibay/AAE%20Aset%20Automation%20Engine/docs/development/12_PROJECT_OPERATING_SYSTEM.md)
+

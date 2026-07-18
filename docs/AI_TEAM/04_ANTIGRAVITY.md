@@ -10,7 +10,7 @@
 ## 2. Основные задачи
 * **Поддержка структуры проекта:** Контроль за правильным расположением файлов в директориях.
 * **Создание и обновление документов:** Оформление технических документов, инструкций и регламентов.
-* **Ведение журналов:** Поддержание в актуальном состоянии журналов прогресса ([04_PROGRESS.md](file:///Users/asetmendibay/AAE%20Aset%20Automation%20Engine/04_PROGRESS.md)), состояния ([docs/13_PROJECT_STATE.md](file:///Users/asetmendibay/AAE%20Aset%20Automation%20Engine/docs/13_PROJECT_STATE.md)) и истории ([docs/15_PROJECT_JOURNAL.md](file:///Users/asetmendibay/AAE%20Aset%20Automation%20Engine/docs/15_PROJECT_JOURNAL.md)).
+* **Ведение журналов:** Поддержание в актуальном состоянии журналов прогресса ([04_PROGRESS.md](file:///Users/asetmendibay/AAE%20Aset%20Automation%20Engine/docs/core/04_PROGRESS.md)), состояния ([docs/development/13_PROJECT_STATE.md](file:///Users/asetmendibay/AAE%20Aset%20Automation%20Engine/docs/development/13_PROJECT_STATE.md)) и истории ([docs/development/15_PROJECT_JOURNAL.md](file:///Users/asetmendibay/AAE%20Aset%20Automation%20Engine/docs/development/15_PROJECT_JOURNAL.md)).
 * **Создание шаблонов:** Разработка шаблонов ТЗ, отчетов и рабочих логов.
 * **Организация workspace:** Создание и структурирование папок ежедневной работы в `workspace/`.
 * **Архивация материалов:** Перенос завершенных дневных материалов и закрытых задач в каталог `archive/`.

@@ -2,11 +2,11 @@
 
 Любой ИИ, работающий над проектом, обязан начинать работу со следующего порядка чтения документации:
 
-1. [14_AI_CONTEXT.md](file:///Users/asetmendibay/AAE%20Aset%20Automation%20Engine/docs/14_AI_CONTEXT.md) (Оперативный контекст для ИИ)
-2. [13_PROJECT_STATE.md](file:///Users/asetmendibay/AAE%20Aset%20Automation%20Engine/docs/13_PROJECT_STATE.md) (Текущее состояние проекта)
-3. [00_PROJECT_VISION.md](file:///Users/asetmendibay/AAE%20Aset%20Automation%20Engine/00_PROJECT_VISION.md) (Видение и цели проекта)
-4. [99_DECISIONS.md](file:///Users/asetmendibay/AAE%20Aset%20Automation%20Engine/99_DECISIONS.md) (Журнал принятых решений)
-5. [02_ARCHITECTURE.md](file:///Users/asetmendibay/AAE%20Aset%20Automation%20Engine/02_ARCHITECTURE.md) (Архитектура проекта)
+1. [14_AI_CONTEXT.md](file:///Users/asetmendibay/AAE%20Aset%20Automation%20Engine/docs/development/14_AI_CONTEXT.md) (Оперативный контекст для ИИ)
+2. [13_PROJECT_STATE.md](file:///Users/asetmendibay/AAE%20Aset%20Automation%20Engine/docs/development/13_PROJECT_STATE.md) (Текущее состояние проекта)
+3. [00_PROJECT_VISION.md](file:///Users/asetmendibay/AAE%20Aset%20Automation%20Engine/docs/core/00_PROJECT_VISION.md) (Видение и цели проекта)
+4. [99_DECISIONS.md](file:///Users/asetmendibay/AAE%20Aset%20Automation%20Engine/docs/core/99_DECISIONS.md) (Журнал принятых решений)
+5. [02_ARCHITECTURE.md](file:///Users/asetmendibay/AAE%20Aset%20Automation%20Engine/docs/core/02_ARCHITECTURE.md) (Архитектура проекта)
 
 *Остальные документы (такие как правила, воркфлоу, бэклог и операционная система) изучаются только по мере необходимости.*
 
