@@ -2,8 +2,9 @@
 
 ## Статус
 
-Локальная системная проверка завершена 2026-07-18. Remote GitHub Actions
-остается обязательным release gate после первого push текущих изменений.
+System Verification завершена 2026-07-18. GitHub Actions run
+`29650764469` завершился green: Playwright install, quality gates, production
+dependency audit и build прошли на PR #1.
 
 ## Scope
 
@@ -46,7 +47,7 @@ high/critical. Audit включён в GitHub Actions workflow после qualit
 - [x] Local Smoke запускается без внешней сети и возвращает safe result.
 - [x] Failure/recovery и security matrix документированы.
 - [x] Support runbook определён ниже.
-- [ ] Текущие изменения отправлены в remote и GitHub Actions завершился green.
+- [x] Текущие изменения отправлены в remote и GitHub Actions завершился green.
 - [ ] Product Owner подтвердил release candidate и состав версии 0.1.
 
 ## Support runbook

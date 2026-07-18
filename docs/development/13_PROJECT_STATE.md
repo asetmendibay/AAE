@@ -2,14 +2,14 @@
 
 ## Текущий статус
 
-| Поле                   | Значение                                          |
-| ---------------------- | ------------------------------------------------- |
-| Roadmap stage          | 7 — System Verification (local evidence complete) |
-| Current goal           | Пройти remote CI release gate                     |
-| Next stage             | 8 — Release 0.1 после Product Owner decision      |
-| Branch                 | `main` до создания первой task branch             |
-| Stack                  | Node.js 20+, TypeScript, npm, Playwright adapter  |
-| Active runtime modules | Execution Engine и Browser Platform adapters      |
+| Поле                   | Значение                                         |
+| ---------------------- | ------------------------------------------------ |
+| Roadmap stage          | 7 — System Verification (completed)              |
+| Current goal           | Product Owner release candidate decision         |
+| Next stage             | 8 — Release 0.1 после Product Owner decision     |
+| Branch                 | `main` до создания первой task branch            |
+| Stack                  | Node.js 20+, TypeScript, npm, Playwright adapter |
+| Active runtime modules | Execution Engine и Browser Platform adapters     |
 
 ## Решения и ограничения
 
@@ -27,6 +27,6 @@
 
 ## Блокеры
 
-Локальные fault-injection, security review и dependency audit завершены.
-Блокирующий release gate: отправить текущие изменения и получить green GitHub
-Actions; затем Product Owner подтверждает release candidate.
+Fault-injection, security review, dependency audit и GitHub Actions release
+gate завершены (PR #1, run `29650764469`). Следующий transition требует
+Product Owner decision о release candidate.

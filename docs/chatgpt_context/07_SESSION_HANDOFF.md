@@ -31,8 +31,8 @@
 
 ### System Verification (2026-07-18)
 
-- **Текущий этап:** Этап 7 — System Verification; local evidence complete,
-  remote CI pending.
+- **Текущий этап:** Этап 7 — System Verification завершён; PR #1 и GitHub
+  Actions run `29650764469` green.
 - **Что завершено:** Этапы 1–6, fault-injection/recovery matrix, security
   verification, production dependency audit и support runbook.
 - **Что изменилось после прошлой сессии:** создан runtime vertical slice с
@@ -44,7 +44,7 @@
   - [03_NEXT_TARGET.md](../executive/03_NEXT_TARGET.md)
 - **Какие решения приняты:** новых baseline/ADR решений нет; усилены
   существующие lifecycle и redaction boundaries regression tests.
-- **Какие вопросы открыты:** remote CI status и Product Owner release decision.
+- **Какие вопросы открыты:** только Product Owner release decision.
 - **Что необходимо проверить ChatGPT:** соответствие release candidate scope
   исходной цели 0.1 после получения remote CI evidence.
 - **Следующая задача:** Этап 8 — Release 0.1 только после Product Owner approval.

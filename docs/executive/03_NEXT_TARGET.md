@@ -5,14 +5,14 @@
 
 ## Цель
 
-Пройти remote CI release gate для завершённого локально **Этапа 7 — System
-Verification**.
+Получить Product Owner decision о release candidate после завершённого **Этапа
+7 — System Verification**.
 
 ## Обязательный результат
 
-1. Отправить текущий runtime-срез в remote без включения незапланированных файлов.
-2. Получить green GitHub Actions: quality gates, production dependency audit и build.
-3. Передать evidence Product Owner для решения о release candidate.
+1. Ознакомиться с green GitHub Actions evidence в PR #1.
+2. Подтвердить scope версии 0.1 и перевод draft PR в ready state.
+3. После approval начать Этап 8: versioned release, changelog, tag и run guide.
 
 ## Не является целью
 
@@ -21,6 +21,5 @@ Verification**.
 
 ## Критерий завершения вехи
 
-Веха завершена, когда GitHub Actions green, критические failure/recovery
-scenarios имеют evidence, dependency audit clean, а release/support documents
-готовы для решения Product Owner о release candidate.
+Веха завершена: GitHub Actions green, критические failure/recovery scenarios
+имеют evidence, dependency audit clean, release/support documents готовы.
