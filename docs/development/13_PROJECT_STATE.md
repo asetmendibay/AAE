@@ -4,10 +4,10 @@
 
 | Поле                   | Значение                                         |
 | ---------------------- | ------------------------------------------------ |
-| Roadmap stage          | 8 — Release 0.1 (in progress)                    |
-| Current goal           | Merge подтверждённого PR, tag и GitHub Release   |
-| Next stage             | Release complete                                 |
-| Branch                 | `codex/release-0.1-rc`                           |
+| Roadmap stage          | 8 — Release 0.1 (completed)                      |
+| Current goal           | Поддержка опубликованной версии                  |
+| Next stage             | Новый roadmap stage после Product Owner decision |
+| Branch                 | `main` с tag `v0.1.0`                            |
 | Stack                  | Node.js 20+, TypeScript, npm, Playwright adapter |
 | Active runtime modules | Execution Engine и Browser Platform adapters     |
 
@@ -27,5 +27,5 @@
 
 ## Блокеры
 
-Product Owner подтвердил release candidate. Этап 7 завершён; выполняется Этап 8:
-merge PR #1, создание immutable tag `v0.1.0` и GitHub Release.
+Release 0.1 опубликован: PR #1 merged, immutable tag `v0.1.0` указывает на
+merge SHA `29d307f`, GitHub Release создан. Известных blocking defects нет.

@@ -2,8 +2,9 @@
 
 ## Статус
 
-Release candidate подтверждён Product Owner. Этот документ определяет
-поддерживаемую границу, установку и запуск immutable версии `v0.1.0`.
+Release опубликован 2026-07-18: [`v0.1.0`](https://github.com/asetmendibay/AAE/releases/tag/v0.1.0)
+указывает на immutable merge SHA `29d307f`. Этот документ определяет
+поддерживаемую границу, установку и запуск версии.
 
 ## Поддерживаемая граница
 
@@ -46,6 +47,6 @@ npm run start -- --local-smoke
 
 ## Release evidence
 
-- PR #1, GitHub Actions runs `29650764469` и `29650857617`: green.
+- PR #1 merged; GitHub Actions run `29651028711` на `main`: green.
 - 12 test files / 33 tests, build и production dependency audit: green.
 - Verification matrix и support runbook: `23_TASK_AE_014_SYSTEM_VERIFICATION.md`.
