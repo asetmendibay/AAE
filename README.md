@@ -1,6 +1,9 @@
 # Automation Engine (AAE)
 
-**Automation Engine** — это модульный, масштабируемый движок автоматизации браузера на базе Node.js + Playwright + TypeScript, разработанный как надежная B2B-альтернатива визуальным средам автоматизации (BAS, ZennoPoster).
+Automation Engine — модульная платформа разрешённой браузерной автоматизации на
+Node.js, TypeScript и Playwright. Реализован вертикальный срез 0.1: execution
+engine, isolated Playwright browser session, encrypted profile store и
+контролируемый Local Smoke module.
 
 ---
 
@@ -8,14 +11,15 @@
 
 ```
 Automation Engine/
-├── docs/               # Документация проекта (Базовые правила, роли ИИ, стандарты)
-│   ├── core/           # Видение, мастер-план, прогресс и архитектура
-│   ├── standards/      # Стандарты разработки, стиля кода, именования и Git
-│   ├── templates/      # Шаблоны ТЗ, архитектурных решений, модулей
-│   ├── AI_TEAM/        # Роли, правила и конституция ИИ-команды
-│   └── development/    # Бэклог, чейнджлог, журналы проекта и текущий статус
-├── src/                # Исходный код приложения
-├── tests/              # Автоматические тесты (Unit, E2E)
+├── docs/
+│   ├── executive/      # Точка входа, состояние и baseline
+│   ├── core/           # Vision, roadmap, architecture, workflow и decisions
+│   ├── development/    # Active backlog, module/API specs и журналы
+│   ├── standards/      # Нормы Git, кода, документации и workspace
+│   ├── templates/      # Канонические task, ADR и module templates
+│   └── AI_TEAM/        # Постоянные роли, handoff и constitutions
+├── src/                # Исходный код по Architecture Baseline
+├── tests/              # Unit, contract и integration tests
 ├── scripts/            # Вспомогательные скрипты разработки
 ├── workspace/          # Ежедневный рабочий воркспейс участников и ИИ
 ├── archive/            # Архив завершенных дневных задач
@@ -26,24 +30,44 @@ Automation Engine/
 
 ---
 
-## 📚 Навигация по документации
+## Документация
 
-Каждый участник команды (включая ИИ-помощников) должен начинать работу в строгом порядке, описанном в [docs/core/05_AI_GUIDE.md](file:///Users/asetmendibay/AAE%20Aset%20Automation%20Engine/docs/core/05_AI_GUIDE.md):
+Начните с [Project Baseline 0.1](docs/executive/06_PROJECT_BASELINE_0_1.md),
+затем прочитайте [Project Roadmap 0.1](docs/core/01_MASTER_PLAN.md),
+[Architecture Baseline](docs/core/02_ARCHITECTURE.md) и
+[Unified Development Workflow](docs/core/11_WORKFLOW.md).
 
-1. **Контекст ИИ:** Изучите текущий стек и правила именования в [docs/development/14_AI_CONTEXT.md](file:///Users/asetmendibay/AAE%20Aset%20Automation%20Engine/docs/development/14_AI_CONTEXT.md).
-2. **Текущий статус:** Проверьте текущую задачу в [docs/development/13_PROJECT_STATE.md](file:///Users/asetmendibay/AAE%20Aset%20Automation%20Engine/docs/development/13_PROJECT_STATE.md).
-3. **Цели:** Ознакомьтесь с видением проекта в [docs/core/00_PROJECT_VISION.md](file:///Users/asetmendibay/AAE%20Aset%20Automation%20Engine/docs/core/00_PROJECT_VISION.md).
-4. **Правила кодирования:** Прочитайте правила [docs/core/03_RULES.md](file:///Users/asetmendibay/AAE%20Aset%20Automation%20Engine/docs/core/03_RULES.md).
-5. **Инженерные ценности:** Соблюдайте принципы [docs/core/10_ENGINEERING_VALUES.md](file:///Users/asetmendibay/AAE%20Aset%20Automation%20Engine/docs/core/10_ENGINEERING_VALUES.md) и **Правило Ноль** в [docs/core/00_RULE_ZERO.md](file:///Users/asetmendibay/AAE%20Aset%20Automation%20Engine/docs/core/00_RULE_ZERO.md).
+Для быстрого восстановления контекста ChatGPT при начале архитектурной сессии используйте [ChatGPT Context Layer](docs/chatgpt_context/00_README_FOR_CHATGPT.md).
+
+Полный порядок чтения для участников определён в
+[AI Guide](docs/core/05_AI_GUIDE.md).
 
 ---
 
-## 🚀 Как начать работу
+## Статус разработки
 
-1. Установите зависимости (Node.js v20+):
-   ```bash
-   npm install
-   ```
-2. Изучите бэклог задач в [docs/development/06_BACKLOG.md](file:///Users/asetmendibay/AAE%20Aset%20Automation%20Engine/docs/development/06_BACKLOG.md).
-3. Создайте ветку под задачу в соответствии с [docs/standards/GIT_STANDARD.md](file:///Users/asetmendibay/AAE%20Aset%20Automation%20Engine/docs/standards/GIT_STANDARD.md).
-4. Весь рабочий процесс ведется в папках ежедневного воркспейса ([docs/standards/12_PROJECT_OPERATING_SYSTEM.md](file:///Users/asetmendibay/AAE%20Aset%20Automation%20Engine/docs/standards/12_PROJECT_OPERATING_SYSTEM.md)).
+Репозиторий подготовлен к Release 0.1. Этапы 1–7 завершены, включая
+fault-injection, security verification, dependency audit и GitHub Actions CI.
+Поддерживаемая граница версии — controlled Local Smoke scenario без внешней
+сети и site-specific integrations.
+
+Локальные quality gates:
+
+```bash
+npm ci
+npm run quality:check
+npm run audit:prod
+npm run build
+```
+
+Локальный controlled smoke scenario (не обращается к внешней сети):
+
+```bash
+npm run start -- --local-smoke
+```
+
+Новые задачи создаются только из [Operational Backlog](docs/development/06_BACKLOG.md)
+и выполняются по [Git Standard](docs/standards/GIT_STANDARD.md).
+
+Подробные требования установки, run guide и known limitations — в
+[Release 0.1 guide](docs/development/24_RELEASE_0_1.md).

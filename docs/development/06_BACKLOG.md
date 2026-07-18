@@ -1,45 +1,55 @@
-# Backlog (Бэклог задач)
+# Operational Backlog
 
-## Фаза 1: Основа (Base Services)
-- [x] Инициализация документации и репозитория [TASK_AE_001]
-- [x] Разработка Системы оперативной памяти проекта (Project Memory System) [TASK_AE_002]
-- [ ] Проектирование архитектуры исходного кода и структуры `src/` (TypeScript, ES Modules, DI)
-- [ ] Разработка модуля конфигурации (`Config`)
-- [ ] Разработка модуля логирования (`Logger`)
-- [ ] Разработка Browser Manager (управление инстансами Playwright)
-- [ ] Разработка Proxy Manager (валидация, ротация)
-- [ ] Разработка Profile Manager (хранение и загрузка кук, сессий)
-- [ ] Разработка Fingerprint Manager (генерация и подмена фингерпринтов)
-- [ ] Разработка Data Generator (генерация случайных имен, почт, паролей)
-- [ ] Разработка CLI (командный интерфейс для запуска задач)
-- [ ] Настройка общей системы глобальных настроек
+**Источник задач:** `docs/core/01_MASTER_PLAN.md`.
 
-## Фаза 2: Google Module
-- [ ] Автоматизация регистрации аккаунтов (Signup)
-- [ ] Автоматизация авторизации (Login)
-- [ ] Управление сессиями и куками (Session / Cookies)
-- [ ] Восстановление аккаунтов при чекпоинтах (Recovery)
+Backlog содержит только декомпозированные задачи active roadmap stage. Он не
+заменяет Roadmap и не содержит будущие product ideas.
 
-## Фаза 3: SMS
-- [ ] Интеграция API SMS-Activate
-- [ ] Интеграция API 5SIM
-- [ ] Интеграция API DaisySMS
+## Закрыто
 
-## Фаза 4: Captcha
-- [ ] Интеграция CapMonster API
-- [ ] Интеграция 2Captcha API
-- [ ] Интеграция AntiCaptcha API
+- [x] Repository and documentation initialization.
+- [x] Project Memory System.
+- [x] Project Baseline 0.1.
 
-## Фаза 5: Dashboard
-- [ ] Разработка Web UI (панель управления)
-- [ ] Модуль статистики и аналитики
-- [ ] Очередь задач (Queue Manager)
-- [ ] Мониторинг потоков в реальном времени
-- [ ] Просмотр логов в реальном времени
+## Разрешено к планированию
 
-## Фаза 6: Automation API
-- [ ] Telegram-бот для уведомлений и контроля
-- [ ] Внешний REST API для интеграций
-- [ ] Система Webhook
-- [ ] Встроенный планировщик задач (Scheduler)
-- [ ] Облачная синхронизация и масштабирование
+### Этап 1 — Engineering Foundation
+
+- [x] TASK-001: создать воспроизводимый Node.js/TypeScript project scaffold.
+- [x] TASK-002: настроить strict type check, formatter и linter.
+- [x] TASK-003: настроить test runner и базовую test matrix.
+- [x] TASK-004: настроить CI quality gates.
+- [x] TASK-005: создать утверждённую физическую структуру `src/` и `tests/`
+      без production modules.
+
+### Этап 2 — Cross-cutting Runtime
+
+- [x] TASK_AE_007: реализовать Config contract и безопасный environment loader.
+- [x] TASK_AE_008: реализовать Logger/Events contract, JSON logger и redaction.
+- [x] TASK_AE_009: реализовать Error taxonomy и safe failure classification.
+- [x] TASK_AE_010: реализовать Execution Engine с lifecycle, timeout, cancellation,
+      retry и demo CLI.
+- [x] TASK_AE_011: реализовать Browser port и Playwright adapter с isolated context
+      и graceful cleanup.
+
+### Этап 5 — Runtime Resources
+
+- [x] TASK_AE_012: утвердить storage/key policy и реализовать Profile Store,
+      Network Resource, validation и isolation tests.
+
+### Этап 6 — First Authorised Module
+
+- [x] TASK_AE_013: реализовать Local Smoke module для контролируемого local target.
+
+### Этап 7 — System Verification
+
+- [x] TASK_AE_014: выполнены fault-injection, security verification, dependency
+      audit и remote CI release gate (PR #1, GitHub Actions green).
+
+### Этап 8 — Release 0.1
+
+- [ ] TASK_AE_015: опубликовать подтверждённый 0.1 source как tag и GitHub
+      Release с install/run guide и known limitations.
+
+Следующая задача создаётся только из active roadmap stage и после выполнения
+переходного критерия текущего этапа.

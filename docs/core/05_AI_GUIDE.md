@@ -1,21 +1,26 @@
-# AI GUIDE
+# AI Guide
 
-Любой ИИ, работающий над проектом, обязан начинать работу со следующего порядка чтения документации:
+Перед любой задачей участник читает документы в следующем порядке:
 
-1. [14_AI_CONTEXT.md](file:///Users/asetmendibay/AAE%20Aset%20Automation%20Engine/docs/development/14_AI_CONTEXT.md) (Оперативный контекст для ИИ)
-2. [13_PROJECT_STATE.md](file:///Users/asetmendibay/AAE%20Aset%20Automation%20Engine/docs/development/13_PROJECT_STATE.md) (Текущее состояние проекта)
-3. [00_PROJECT_VISION.md](file:///Users/asetmendibay/AAE%20Aset%20Automation%20Engine/docs/core/00_PROJECT_VISION.md) (Видение и цели проекта)
-4. [99_DECISIONS.md](file:///Users/asetmendibay/AAE%20Aset%20Automation%20Engine/docs/core/99_DECISIONS.md) (Журнал принятых решений)
-5. [02_ARCHITECTURE.md](file:///Users/asetmendibay/AAE%20Aset%20Automation%20Engine/docs/core/02_ARCHITECTURE.md) (Архитектура проекта)
-6. [09_CHATGPT_CONSTITUTION.md](file:///Users/asetmendibay/AAE%20Aset%20Automation%20Engine/docs/AI_TEAM/09_CHATGPT_CONSTITUTION.md) (Конституция Главного Архитектора)
-7. [12_PROJECT_OPERATING_SYSTEM.md](file:///Users/asetmendibay/AAE%20Aset%20Automation%20Engine/docs/standards/12_PROJECT_OPERATING_SYSTEM.md) (Система управления проектом)
-8. [16_GIT_WORKFLOW.md](file:///Users/asetmendibay/AAE%20Aset%20Automation%20Engine/docs/standards/16_GIT_WORKFLOW.md) (Стандарты Git)
+1. `docs/executive/00_EXECUTIVE_CONTEXT.md`;
+2. `docs/executive/01_CURRENT_STATE.md`;
+3. `docs/executive/02_ACTIVE_DECISIONS.md`;
+4. `docs/core/01_MASTER_PLAN.md`;
+5. `docs/core/02_ARCHITECTURE.md`;
+6. `docs/core/11_WORKFLOW.md`;
+7. собственную конституцию в `docs/AI_TEAM/constitutions/`;
+8. task specification и документы активного roadmap stage.
 
-*Остальные документы (такие как правила, воркфлоу, бэклог, шаблоны и стандарты кода) изучаются только по мере необходимости.*
+_Исключение для ChatGPT:_ ChatGPT при начале нового диалога читает документы строго в порядке, определённом в [00_README_FOR_CHATGPT.md](../chatgpt_context/00_README_FOR_CHATGPT.md), восстанавливая только архитектурный контекст без загрузки всей кодовой базы.
 
-После этого можно приступать к работе.
+## Обязательные правила
 
-- **Запрещается** самостоятельно менять архитектуру проекта.
-- **Запрещается** переписывать уже существующие решения без анализа последствий.
-- Любое крупное изменение сначала обсуждается.
-- Основная задача ИИ — помогать строить долгосрочный Automation Engine, а не просто писать код.
+- Не менять архитектуру, роли, workflow или структуру репозитория без ADR либо
+  явно зафиксированного решения Product Owner.
+- Не начинать задачу, если её источник не указан в Project Roadmap 0.1.
+- Не считать отсутствие решения разрешением выбрать вариант самостоятельно.
+- Не скрывать риски, сбои проверок и расхождения с baseline.
+- В конце задачи обновлять только документы, определённые единственным workflow.
+
+Детальные стандарты кода, Git и документации читаются до той задачи, к которой
+они применимы.

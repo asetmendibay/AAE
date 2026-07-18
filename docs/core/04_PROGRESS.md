@@ -1,26 +1,26 @@
 # Progress
 
-## Начало проекта
-
 **Версия:** 0.1
+**Текущий этап roadmap:** 0 — Project Baseline
 
-### Сделано
+## Завершено
 
-- Базовая документация проекта (Vision, Master Plan, Rules, Decisions, Values, Workflow).
-- Разработка Системы управления проектом ([12_PROJECT_OPERATING_SYSTEM.md](file:///Users/asetmendibay/AAE%20Aset%20Automation%20Engine/docs/standards/12_PROJECT_OPERATING_SYSTEM.md)) [TASK_AE_001].
-- Создание структуры каталогов проекта и папки ежедневного воркспейса (`workspace/`).
-- Разработка Системы оперативной памяти проекта ([docs/development/13_PROJECT_STATE.md](file:///Users/asetmendibay/AAE%20Aset%20Automation%20Engine/docs/development/13_PROJECT_STATE.md), [docs/development/14_AI_CONTEXT.md](file:///Users/asetmendibay/AAE%20Aset%20Automation%20Engine/docs/development/14_AI_CONTEXT.md), [docs/development/15_PROJECT_JOURNAL.md](file:///Users/asetmendibay/AAE%20Aset%20Automation%20Engine/docs/development/15_PROJECT_JOURNAL.md)) [TASK_AE_002].
-- Создание каталога команды AAE AI Team ([docs/AI_TEAM/00_TEAM.md](file:///Users/asetmendibay/AAE%20Aset%20Automation%20Engine/docs/AI_TEAM/00_TEAM.md)) [TASK_AE_004].
-- Внедрение стандартов Git ([docs/standards/16_GIT_WORKFLOW.md](file:///Users/asetmendibay/AAE%20Aset%20Automation%20Engine/docs/standards/16_GIT_WORKFLOW.md)) и реструктуризация каталога документации [TASK_AE_005].
+- Инициализация репозитория, постоянной документации и рабочего workspace.
+- Project Memory System, стандарты Git и базовые шаблоны.
+- Executive context и конституция Codex.
+- `TASK — PROJECT BASELINE 0.1`: architecture baseline, единый workflow,
+  финальная структура AI Team, Project Roadmap 0.1 и правило Architecture
+  Freeze.
 
+## Следующий разрешённый этап
 
+**Этап 1 — Engineering Foundation.**
 
+Первая implementation-задача может быть создана только как декомпозиция Этапа 1
+в Project Roadmap 0.1. Задачи на Config, Logger, Browser или другие runtime
+modules до его завершения не разрешены.
 
-### В работе
+## Историческая примечание
 
-- Фаза 1: Архитектура (Проектирование архитектуры исходного кода в `src/` и выбор технологического стека).
-
-### Следующая задача
-
-- Разработка конфигурационного модуля (`Config`) и логгера (`Logger`).
-
+Предыдущие записи о первоначальной инициализации сохранены в changelog и
+project journal. Этот документ показывает только текущую позицию roadmap.

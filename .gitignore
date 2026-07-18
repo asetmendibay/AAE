@@ -10,6 +10,7 @@ temp/
 
 # Dependency directories
 node_modules/
+dist/
 jspm_packages/
 
 # IDEs and editors
