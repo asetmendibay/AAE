@@ -3,7 +3,7 @@
 ## 2026-07-18
 * **Что сделано:**
   - Инициализирована основная проектная документация в корневой директории (Vision, Master Plan, Rules, Decisions, Values, Workflow).
-  - Спроектирован и развернут регламент Системы управления проектом ([docs/development/12_PROJECT_OPERATING_SYSTEM.md](file:///Users/asetmendibay/AAE%20Aset%20Automation%20Engine/docs/development/12_PROJECT_OPERATING_SYSTEM.md)).
+  - Спроектирован и развернут регламент Системы управления проектом ([docs/standards/12_PROJECT_OPERATING_SYSTEM.md](file:///Users/asetmendibay/AAE%20Aset%20Automation%20Engine/docs/standards/12_PROJECT_OPERATING_SYSTEM.md)).
   - Создана физическая структура каталогов проекта (`docs/`, `src/`, `tests/`, `workspace/` и др.) и настроен [.gitignore](file:///Users/asetmendibay/AAE%20Aset%20Automation%20Engine/.gitignore).
   - Настроен ежедневный воркспейс в `workspace/2026/07/Week_29/2026-07-18/` с файлами `tasks.md`, `notes.md`, `ideas.md`, `ai_prompts.md`, `results.md`.
   - Разработана Система памяти проекта ([docs/development/13_PROJECT_STATE.md](file:///Users/asetmendibay/AAE%20Aset%20Automation%20Engine/docs/development/13_PROJECT_STATE.md), [docs/development/14_AI_CONTEXT.md](file:///Users/asetmendibay/AAE%20Aset%20Automation%20Engine/docs/development/14_AI_CONTEXT.md)).

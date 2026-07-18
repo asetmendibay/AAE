@@ -48,5 +48,5 @@
 
 ## 7. Files Changed Recently
 * Все файлы документации перенесены в каталоги `docs/core/` и `docs/development/`.
-* [docs/development/12_PROJECT_OPERATING_SYSTEM.md](file:///Users/asetmendibay/AAE%20Aset%20Automation%20Engine/docs/development/12_PROJECT_OPERATING_SYSTEM.md)
+* [docs/standards/12_PROJECT_OPERATING_SYSTEM.md](file:///Users/asetmendibay/AAE%20Aset%20Automation%20Engine/docs/standards/12_PROJECT_OPERATING_SYSTEM.md)
 

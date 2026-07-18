@@ -8,7 +8,7 @@
 ---
 
 ## 2. Основные задачи
-* **Code Review:** Рецензирование кода, написанного Codex или ChatGPT. Проверка на соответствие правилам проекта ([03_RULES.md](file:///Users/asetmendibay/AAE%20Aset%20Automation%20Engine/docs/core/03_RULES.md)).
+* **Code Review:** Рецензирование кода, написанного Codex или ChatGPT. Проверка на соответствие правилам проекта ([03_RULES.md](file:///Users/asetmendibay/AAE%20Aset%20Automation%20Engine/docs/standards/03_RULES.md)).
 * **Refactoring:** Оптимизация структуры кода для улучшения читаемости и тестируемости.
 * **Performance Tuning:** Поиск «узких мест» (bottlenecks) производительности и их устранение.
 * **Security Review:** Анализ кода на наличие уязвимостей (утечки памяти, небезопасные зависимости, инъекции).
