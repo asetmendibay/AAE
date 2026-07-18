@@ -1,16 +1,14 @@
 # AI GUIDE
 
-Любой ИИ, работающий над проектом, обязан сначала изучить следующие файлы:
+Любой ИИ, работающий над проектом, обязан начинать работу со следующего порядка чтения документации:
 
-1. [00_RULE_ZERO.md](file:///Users/asetmendibay/AAE%20Aset%20Automation%20Engine/00_RULE_ZERO.md)
-2. [00_PROJECT_VISION.md](file:///Users/asetmendibay/AAE%20Aset%20Automation%20Engine/00_PROJECT_VISION.md)
-3. [01_MASTER_PLAN.md](file:///Users/asetmendibay/AAE%20Aset%20Automation%20Engine/01_MASTER_PLAN.md)
-4. [02_ARCHITECTURE.md](file:///Users/asetmendibay/AAE%20Aset%20Automation%20Engine/02_ARCHITECTURE.md)
-5. [03_RULES.md](file:///Users/asetmendibay/AAE%20Aset%20Automation%20Engine/03_RULES.md)
-6. [04_PROGRESS.md](file:///Users/asetmendibay/AAE%20Aset%20Automation%20Engine/04_PROGRESS.md)
-7. [10_ENGINEERING_VALUES.md](file:///Users/asetmendibay/AAE%20Aset%20Automation%20Engine/10_ENGINEERING_VALUES.md)
-8. [11_WORKFLOW.md](file:///Users/asetmendibay/AAE%20Aset%20Automation%20Engine/11_WORKFLOW.md)
-9. [12_PROJECT_OPERATING_SYSTEM.md](file:///Users/asetmendibay/AAE%20Aset%20Automation%20Engine/docs/12_PROJECT_OPERATING_SYSTEM.md)
+1. [14_AI_CONTEXT.md](file:///Users/asetmendibay/AAE%20Aset%20Automation%20Engine/docs/14_AI_CONTEXT.md) (Оперативный контекст для ИИ)
+2. [13_PROJECT_STATE.md](file:///Users/asetmendibay/AAE%20Aset%20Automation%20Engine/docs/13_PROJECT_STATE.md) (Текущее состояние проекта)
+3. [00_PROJECT_VISION.md](file:///Users/asetmendibay/AAE%20Aset%20Automation%20Engine/00_PROJECT_VISION.md) (Видение и цели проекта)
+4. [99_DECISIONS.md](file:///Users/asetmendibay/AAE%20Aset%20Automation%20Engine/99_DECISIONS.md) (Журнал принятых решений)
+5. [02_ARCHITECTURE.md](file:///Users/asetmendibay/AAE%20Aset%20Automation%20Engine/02_ARCHITECTURE.md) (Архитектура проекта)
+
+*Остальные документы (такие как правила, воркфлоу, бэклог и операционная система) изучаются только по мере необходимости.*
 
 После этого можно приступать к работе.
 
