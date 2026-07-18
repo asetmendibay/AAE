@@ -46,7 +46,7 @@ Automation Engine/
 
 ## Статус разработки
 
-Репозиторий подготовлен к Release 0.1. Этапы 1–7 завершены, включая
+Опубликована Release 0.1. Этапы 1–8 завершены, включая
 fault-injection, security verification, dependency audit и GitHub Actions CI.
 Поддерживаемая граница версии — controlled Local Smoke scenario без внешней
 сети и site-specific integrations.
