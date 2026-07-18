@@ -4,10 +4,10 @@
 
 | Поле                   | Значение                                         |
 | ---------------------- | ------------------------------------------------ |
-| Roadmap stage          | 7 — System Verification (completed)              |
-| Current goal           | Product Owner release candidate decision         |
-| Next stage             | 8 — Release 0.1 после Product Owner decision     |
-| Branch                 | `main` до создания первой task branch            |
+| Roadmap stage          | 8 — Release 0.1 (in progress)                    |
+| Current goal           | Merge подтверждённого PR, tag и GitHub Release   |
+| Next stage             | Release complete                                 |
+| Branch                 | `codex/release-0.1-rc`                           |
 | Stack                  | Node.js 20+, TypeScript, npm, Playwright adapter |
 | Active runtime modules | Execution Engine и Browser Platform adapters     |
 
@@ -27,6 +27,5 @@
 
 ## Блокеры
 
-Fault-injection, security review, dependency audit и GitHub Actions release
-gate завершены (PR #1, run `29650764469`). Следующий transition требует
-Product Owner decision о release candidate.
+Product Owner подтвердил release candidate. Этап 7 завершён; выполняется Этап 8:
+merge PR #1, создание immutable tag `v0.1.0` и GitHub Release.

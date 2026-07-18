@@ -46,9 +46,10 @@ Automation Engine/
 
 ## Статус разработки
 
-Репозиторий проходит Этап 7 — System Verification. Завершены Этапы 1–6;
-выполняются fault-injection, security verification, dependency audit и
-release/support documentation.
+Репозиторий подготовлен к Release 0.1. Этапы 1–7 завершены, включая
+fault-injection, security verification, dependency audit и GitHub Actions CI.
+Поддерживаемая граница версии — controlled Local Smoke scenario без внешней
+сети и site-specific integrations.
 
 Локальные quality gates:
 
@@ -67,3 +68,6 @@ npm run start -- --local-smoke
 
 Новые задачи создаются только из [Operational Backlog](docs/development/06_BACKLOG.md)
 и выполняются по [Git Standard](docs/standards/GIT_STANDARD.md).
+
+Подробные требования установки, run guide и known limitations — в
+[Release 0.1 guide](docs/development/24_RELEASE_0_1.md).

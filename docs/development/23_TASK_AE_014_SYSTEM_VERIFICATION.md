@@ -48,7 +48,7 @@ high/critical. Audit включён в GitHub Actions workflow после qualit
 - [x] Failure/recovery и security matrix документированы.
 - [x] Support runbook определён ниже.
 - [x] Текущие изменения отправлены в remote и GitHub Actions завершился green.
-- [ ] Product Owner подтвердил release candidate и состав версии 0.1.
+- [x] Product Owner подтвердил release candidate и состав версии 0.1.
 
 ## Support runbook
 

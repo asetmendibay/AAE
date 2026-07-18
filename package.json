@@ -1,7 +1,7 @@
 {
   "name": "aae-aset-automation-engine",
   "version": "0.1.0",
-  "description": "Automation Engine — модульная платформа разрешённой браузерной автоматизации на Node.js, TypeScript и Playwright. Project Baseline 0.1 завершён; продуктовый код ещё не создан.",
+  "description": "Automation Engine 0.1 — модульная платформа разрешённой браузерной автоматизации на Node.js, TypeScript и Playwright.",
   "main": "dist/index.js",
   "directories": {
     "doc": "docs",

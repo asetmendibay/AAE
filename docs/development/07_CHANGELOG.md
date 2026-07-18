@@ -1,6 +1,6 @@
 # Changelog (Журнал изменений)
 
-## [Unreleased] — Project Baseline 0.1
+## [0.1.0] — 2026-07-18
 
 ### Runtime implementation
 
@@ -34,7 +34,7 @@
 
 - Внешние API, Dashboard, cloud synchronization и неутверждённые integrations.
 
-## [v0.1.0] — 2026-07-18
+## [0.0.0] — 2026-07-18
 
 ### Added
 
