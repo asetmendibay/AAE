@@ -1,30 +1,32 @@
-# Project State (Текущее состояние проекта)
+# Project State
 
 ## Текущий статус
 
-* **Current Phase:** Фаза 1: Основа (Архитектура & Структура)
-* **Current Sprint:** Спринт 1: Инициализация проекта и проектирование
-* **Current Week:** Week 29, 2026
-* **Current Task:** Проектирование архитектуры кодовой базы (`src/`) и выбор технологического стека
-* **Current Goal:** Сформировать расширяемый каркас приложения на Node.js + TypeScript с изоляцией зависимостей
-* **Current Branch:** `main`
-* **Current Stack:** Node.js, TypeScript, Playwright
-* **Active Modules:** *Нет активных модулей (на этапе проектирования)*
+| Поле                   | Значение                                          |
+| ---------------------- | ------------------------------------------------- |
+| Roadmap stage          | 7 — System Verification (local evidence complete) |
+| Current goal           | Пройти remote CI release gate                     |
+| Next stage             | 8 — Release 0.1 после Product Owner decision      |
+| Branch                 | `main` до создания первой task branch             |
+| Stack                  | Node.js 20+, TypeScript, npm, Playwright adapter  |
+| Active runtime modules | Execution Engine и Browser Platform adapters      |
 
----
+## Решения и ограничения
 
-## Архитектурный контекст
+- Решение №2 зафиксировало architecture baseline, роли, workflow и freeze.
+- Новые задачи следуют только из Project Roadmap 0.1.
+- Direct implementation Config, Logger, Browser или Profile до Engineering
+  Foundation не разрешена.
+- Product runtime logic в foundation не добавляется; `src/` содержит только
+  утверждённые слои и технический entrypoint.
+- Config, Logger/Events и Error taxonomy завершены в рамках Этапа 2.
+- Execution Engine и demo CLI завершены в рамках Этапа 3.
+- Browser port и Playwright adapter завершены в рамках Этапа 4.
+- Runtime Resources и решение №3 завершены в рамках Этапа 5.
+- Local Smoke module и решение №4 завершены в рамках Этапа 6.
 
-* **Current Decisions:**
-  - Решение №1: Отказ от BAS, переход на Node.js + Playwright с модульной архитектурой.
-  - Использование TypeScript для строгой фиксации API и интерфейсов.
-  - Разделение ролей ИИ (ChatGPT — Архитектор, Antigravity — PM, Claude — Senior, Gemini — Research).
-* **Current Risks:**
-  - **AI Drift (ИИ-дрейф):** ИИ может забыть о проектных соглашениях при увеличении объема проекта. *Мера снижения:* Внедрение строгого AI_GUIDE и Project Memory System.
-* **Current Blockers:** *Нет блокирующих факторов*
+## Блокеры
 
----
-
-## План действий
-
-* **Next Task:** Разработка конфигурационного модуля (`Config`) и логгера (`Logger`).
+Локальные fault-injection, security review и dependency audit завершены.
+Блокирующий release gate: отправить текущие изменения и получить green GitHub
+Actions; затем Product Owner подтверждает release candidate.

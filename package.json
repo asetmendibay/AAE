@@ -1,0 +1,49 @@
+{
+  "name": "aae-aset-automation-engine",
+  "version": "0.1.0",
+  "description": "Automation Engine — модульная платформа разрешённой браузерной автоматизации на Node.js, TypeScript и Playwright. Project Baseline 0.1 завершён; продуктовый код ещё не создан.",
+  "main": "dist/index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "scripts": {
+    "build": "tsc",
+    "audit:prod": "npm audit --omit=dev --audit-level=high",
+    "lint": "eslint .",
+    "format:check": "prettier --check .",
+    "format:write": "prettier --write .",
+    "start": "tsx src/interfaces/cli/main.ts",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "quality:check": "npm run format:check && npm run lint && npm run typecheck && npm test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asetmendibay/AAE.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/asetmendibay/AAE/issues"
+  },
+  "homepage": "https://github.com/asetmendibay/AAE#readme",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/node": "^26.1.1",
+    "eslint": "^10.7.0",
+    "prettier": "^3.9.5",
+    "tsx": "^4.23.1",
+    "typescript": "^5.5.4",
+    "typescript-eslint": "^8.64.0",
+    "vitest": "^4.1.10"
+  },
+  "dependencies": {
+    "playwright": "^1.61.1"
+  }
+}
